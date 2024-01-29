@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Preahvihear', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+min-height: 100vh;
+background-image: url("images/pattern-background-desktop.svg");
+background-repeat: no-repeat;
+background-size: contain;
+background-color: hsl(225, 100%, 94%);
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contener{
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+
+}
+.text{
+    padding: 7%;
+}
+
+.contend h2 {
+    padding-top: 1cqb;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.contend p {
+    padding-left: 35px;
+    padding-right: 35px;
+    color: hsl(224, 23%, 55%);;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.design {
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    border-radius: 12px;
+    padding: 25px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.music{
+    display:flex ;
+        justify-content: space-between;
+}
+
+.plan{
+    margin-left: 20px;
+}
+.plan p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+.plan h4 {
+    font-weight: 800;
+}
+
+.design a {
+    font-weight: 400;
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.payment a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.design a:hover{
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.payment:hover{
+    background-color: hsl(225, 41%, 45%);
+    transform: scale(1.05);
+    transition: all 0.2s linear;
+    cursor: pointer;
+
+}
+
+.cancel a:hover{
+    color:black ;
+    transition: all 0.2s linear;
+} 
+
+@media (max-width:450px)
+{
+    .body{
+        background-image: url("images/pattern-background-mobile.svg");
+        font-size: 14px;
+    }
+    .contener{
+        width: 87%;
+    }
+
+    .contend h2 {
+        font-size: 15px;
+    }
+
+    .contend p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .design{
+        margin-bottom: 10px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .payment {
+
+        margin-bottom: 10px;
+    }
+  .image {
+    width: 100%;
+  }
+
+}
+
+@media (max-width:330px)
+{
+    .design h4 {
+        font-size: 12px;
+    }
+
+    .design p {
+        font-size: 11px;
+    }
+    .plan {
+        margin-left: 10px;
+    }
+}
