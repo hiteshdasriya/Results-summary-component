@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Red+Hat+Display:wght@500;700;900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Preahvihear', sans-serif;
-font-family: 'Red Hat Display', sans-serif;
-min-height: 100vh;
-background-image: url("images/pattern-background-desktop.svg");
-background-repeat: no-repeat;
-background-size: contain;
-background-color: hsl(225, 100%, 94%);
-display: flex;
-  align-items: center;
-  justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.contener{
+
+.contener {
     max-width: 450px;
     border-radius: 20px;
     overflow: hidden;
@@ -25,7 +27,8 @@ display: flex;
     background-color: white;
 
 }
-.text{
+
+.text {
     padding: 7%;
 }
 
@@ -38,7 +41,8 @@ display: flex;
 .contend p {
     padding-left: 35px;
     padding-right: 35px;
-    color: hsl(224, 23%, 55%);;
+    color: hsl(224, 23%, 55%);
+    ;
     margin-bottom: 20px;
     font-size: 16px;
 }
@@ -55,14 +59,15 @@ display: flex;
 
 }
 
-.music{
-    display:flex ;
-        justify-content: space-between;
+.music {
+    display: flex;
+    justify-content: space-between;
 }
 
-.plan{
+.plan {
     margin-left: 20px;
 }
+
 .plan p {
     color: hsl(224, 23%, 55%);
     font-size: 16px;
@@ -76,7 +81,7 @@ display: flex;
     font-weight: 400;
 }
 
-.payment{
+.payment {
     background-color: hsl(245, 75%, 52%);
     margin-left: 20px;
     margin-right: 20px;
@@ -97,12 +102,12 @@ display: flex;
     font-weight: 700;
 }
 
-.design a:hover{
+.design a:hover {
     text-decoration: none;
     transition: all 0.2s linear;
 }
 
-.payment:hover{
+.payment:hover {
     background-color: hsl(225, 41%, 45%);
     transform: scale(1.05);
     transition: all 0.2s linear;
@@ -110,18 +115,18 @@ display: flex;
 
 }
 
-.cancel a:hover{
-    color:black ;
+.cancel a:hover {
+    color: black;
     transition: all 0.2s linear;
-} 
+}
 
-@media (max-width:450px)
-{
-    .body{
+@media (max-width:450px) {
+    .body {
         background-image: url("images/pattern-background-mobile.svg");
         font-size: 14px;
     }
-    .contener{
+
+    .contener {
         width: 87%;
     }
 
@@ -134,7 +139,7 @@ display: flex;
         margin-bottom: 10px;
     }
 
-    .design{
+    .design {
         margin-bottom: 10px;
         padding: 10px;
         margin-left: 10px;
@@ -145,14 +150,14 @@ display: flex;
 
         margin-bottom: 10px;
     }
-  .image {
-    width: 100%;
-  }
+
+    .image {
+        width: 100%;
+    }
 
 }
 
-@media (max-width:330px)
-{
+@media (max-width:330px) {
     .design h4 {
         font-size: 12px;
     }
@@ -160,7 +165,10 @@ display: flex;
     .design p {
         font-size: 11px;
     }
+
     .plan {
         margin-left: 10px;
     }
 }
+
+/* my name is hitesh */
